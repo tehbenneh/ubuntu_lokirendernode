@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:latest
 MAINTAINER Ben Harker (benharker@mac.com)
 
 RUN apt-get update && apt-get install wget blender default-jre -y ;
